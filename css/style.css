@@ -1,0 +1,90 @@
+﻿*{
+  margin: 0;
+  padding: 0;
+  font-family: Calibri 'Engravers MT' ;
+}
+
+.corner{
+   border-radius: 10px;
+}
+
+.content-dim{
+  width: 850px;
+}
+
+header {
+  background-color: lightgreen;
+  height : 150px;
+  margin : auto;
+  color: darkblue;
+  font-size: 8em;
+  text-transform: uppercase;
+  line-height: 150px;
+  text-align: center;
+}
+
+.rotate{
+  transform: rotate(7deg);
+  -ms-transform:rotate(7deg); /* IE 9 */
+  -webkit-transform:rotate(7deg); /* Opera, Chrome, and Safari */
+}
+
+#content{
+  background-color: lightgreen;
+  min-height : 225px;
+  margin : auto;
+  margin-top : 5px;
+  padding-top: 25px;
+}
+
+footer{
+  height:50px;
+  background-color:lightblue;
+  line-height: 50px;
+  text-align:center;
+  margin:auto;
+  margin-top:5px;
+}
+
+#content #connexion{
+  width: 50%;
+  margin: auto;
+  background-color: rgba(0,0,234,0.5); /* rgb(255,255,255); #FFF #FFFFFF */
+  height: 150px;
+  padding-top: 50px;
+  text-align:center;
+}
+
+#content #connexion .label{
+  display: inline-block;
+  width: 180px;
+  text-align:left;
+  height: 35px;
+  margin-bottom:5px;
+  font-size: 1.5em;
+}
+
+#content #connexion .input-text{
+  display: inline-block;
+  width:220px;
+  height: 35px;
+  margin-bottom:5px;
+  border-radius: 5px;
+  font-size: 1.5em;
+}
+
+#content #connexion .buton-connexion{
+  background-image: url("../images/bt_connexion.png");
+  width: 112px;
+  height: 45px;
+  border: 0px;
+  background-color: inherit;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#ente-content {
+  
+}
+
+
